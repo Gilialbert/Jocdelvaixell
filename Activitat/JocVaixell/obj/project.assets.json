@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\34695\\Desktop\\recuperacio dani\\Activitat\\JocVaixell\\JocVaixell.csproj",
+      "projectUniqueName": "C:\\Users\\34695\\Desktop\\recuperacio dani\\joc del vaixell\\Activitat\\JocVaixell\\JocVaixell.csproj",
       "projectName": "JocVaixell",
-      "projectPath": "C:\\Users\\34695\\Desktop\\recuperacio dani\\Activitat\\JocVaixell\\JocVaixell.csproj",
+      "projectPath": "C:\\Users\\34695\\Desktop\\recuperacio dani\\joc del vaixell\\Activitat\\JocVaixell\\JocVaixell.csproj",
       "packagesPath": "C:\\Users\\34695\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\34695\\Desktop\\recuperacio dani\\Activitat\\JocVaixell\\obj\\",
+      "outputPath": "C:\\Users\\34695\\Desktop\\recuperacio dani\\joc del vaixell\\Activitat\\JocVaixell\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\34695\\AppData\\Roaming\\NuGet\\NuGet.Config",

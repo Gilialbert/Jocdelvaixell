@@ -4,17 +4,17 @@
 winexe
 C#
 .cs
-C:\Users\34695\Desktop\recuperacio dani\Activitat\client\obj\Debug\net8.0-windows\
+C:\Users\34695\Desktop\recuperacio dani\joc del vaixell\Activitat\client\obj\Debug\net8.0-windows\
 client
 none
 false
 TRACE;DEBUG;NET;NET8_0;NETCOREAPP
-C:\Users\34695\Desktop\recuperacio dani\Activitat\client\App.xaml
+C:\Users\34695\Desktop\recuperacio dani\joc del vaixell\Activitat\client\App.xaml
 280088051
 
 81299250762
-199-307650261
+199-1382045634
 Controls\peticiocontrol.xaml;MainWindow.xaml;
 
-False
+True
 

@@ -7,7 +7,7 @@
              mc:Ignorable="d" 
              d:DesignHeight="450" d:DesignWidth="800">
     <Grid>
-        <Rectangle x:Name="casella" Fill="GreenYellow" Stroke="Black" StrokeThickness="1" MouseRightButtonDown="Casella_Click" />
+        <Rectangle x:Name="casella" Fill="White" Stroke="Black" StrokeThickness="1" MouseRightButtonDown="Casella_Click" />
         <TextBlock x:Name="texte"  HorizontalAlignment="Center" VerticalAlignment="Center"  MouseRightButtonDown="Casella_Click"  ></TextBlock>
     </Grid>
 </UserControl>

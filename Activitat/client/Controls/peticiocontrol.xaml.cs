@@ -1,4 +1,5 @@
-﻿using System;
+﻿using JocVaixell;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Net;
@@ -23,9 +24,12 @@ namespace client
     /// </summary>
     public partial class peticiocontrol : UserControl
     {
+        private TableAlbertcontrol tableControl;
         public peticiocontrol()
         {
             InitializeComponent();
+            this.tableControl = tableControl;
+
         }
         private void env_peticio(object sender, EventArgs e)
         {
@@ -75,8 +79,7 @@ namespace client
                                     resultat = "has tocat";
                                     Indicador.Text = resultat;
                                 }
-
-                                
+                                tableControl.revealcell(int.Parse(row), int.Parse(column), response);
                             }
                         }
                     }

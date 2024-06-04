@@ -1,4 +1,5 @@
 ﻿using System.Configuration;
+using System.Data.Common;
 using System.Net;
 using System.Net.Sockets;
 using System.Text;
@@ -19,6 +20,9 @@ namespace JocVaixell
     /// </summary>
     public partial class MainWindow : Window
     {
+        public string result;
+        public int rew;
+        public int column;
         public MainWindow()
         {
             InitializeComponent();
@@ -100,7 +104,7 @@ namespace JocVaixell
 
                 byte[] buffer = new byte[1024];
                 StringBuilder receivedMessage = new StringBuilder();
-
+                
                 try
                 {
                     Dispatcher.Invoke(() =>
@@ -116,13 +120,11 @@ namespace JocVaixell
                     });
 
                     string[] messageParts = receivedMessage.ToString().Split(',');
-                    int row = int.Parse(messageParts[0]);
-                    int column = int.Parse(messageParts[1]);
+                    rew = int.Parse(messageParts[0]);
+                    column = int.Parse(messageParts[1]);
 
-                    string result = buscarSeparat(row, column);
-                    if(result == "Vaixell") {
-                        table.shiphitted(row, column);
-                    }
+                    result = buscarSeparat(rew, column);
+                    
                     byte[] responseData = Encoding.ASCII.GetBytes(result);
                     clientSocket.Send(responseData);
 
@@ -132,6 +134,10 @@ namespace JocVaixell
                 catch (Exception ex)
                 {
                     MessageBox.Show($"Error al recibir o enviar mensaje: {ex.Message}");
+                }
+                if (result == "Vaixell")
+                {
+                    table.shiphitted(rew, column);
                 }
             }
         }

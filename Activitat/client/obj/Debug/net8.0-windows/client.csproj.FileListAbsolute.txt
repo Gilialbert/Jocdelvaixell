@@ -29,3 +29,35 @@ C:\Users\34695\Desktop\recuperacio dani\Activitat\client\bin\Debug\net8.0-window
 C:\Users\34695\Desktop\recuperacio dani\Activitat\client\bin\Debug\net8.0-windows\JocVaixell.dll.config
 C:\Users\34695\Desktop\recuperacio dani\Activitat\client\obj\Debug\net8.0-windows\client.csproj.AssemblyReference.cache
 C:\Users\34695\Desktop\recuperacio dani\Activitat\client\obj\Debug\net8.0-windows\client.csproj.CopyComplete
+C:\Users\34695\Desktop\recuperacio dani\joc del vaixell\Activitat\client\bin\Debug\net8.0-windows\JocVaixell.deps.json
+C:\Users\34695\Desktop\recuperacio dani\joc del vaixell\Activitat\client\bin\Debug\net8.0-windows\JocVaixell.runtimeconfig.json
+C:\Users\34695\Desktop\recuperacio dani\joc del vaixell\Activitat\client\bin\Debug\net8.0-windows\JocVaixell.exe
+C:\Users\34695\Desktop\recuperacio dani\joc del vaixell\Activitat\client\bin\Debug\net8.0-windows\client.exe
+C:\Users\34695\Desktop\recuperacio dani\joc del vaixell\Activitat\client\bin\Debug\net8.0-windows\client.deps.json
+C:\Users\34695\Desktop\recuperacio dani\joc del vaixell\Activitat\client\bin\Debug\net8.0-windows\client.runtimeconfig.json
+C:\Users\34695\Desktop\recuperacio dani\joc del vaixell\Activitat\client\bin\Debug\net8.0-windows\client.dll
+C:\Users\34695\Desktop\recuperacio dani\joc del vaixell\Activitat\client\bin\Debug\net8.0-windows\client.pdb
+C:\Users\34695\Desktop\recuperacio dani\joc del vaixell\Activitat\client\bin\Debug\net8.0-windows\JocVaixell.dll
+C:\Users\34695\Desktop\recuperacio dani\joc del vaixell\Activitat\client\bin\Debug\net8.0-windows\JocVaixell.pdb
+C:\Users\34695\Desktop\recuperacio dani\joc del vaixell\Activitat\client\bin\Debug\net8.0-windows\JocVaixell.dll.config
+C:\Users\34695\Desktop\recuperacio dani\joc del vaixell\Activitat\client\obj\Debug\net8.0-windows\client.csproj.AssemblyReference.cache
+C:\Users\34695\Desktop\recuperacio dani\joc del vaixell\Activitat\client\obj\Debug\net8.0-windows\Controls\peticiocontrol.g.cs
+C:\Users\34695\Desktop\recuperacio dani\joc del vaixell\Activitat\client\obj\Debug\net8.0-windows\MainWindow.g.cs
+C:\Users\34695\Desktop\recuperacio dani\joc del vaixell\Activitat\client\obj\Debug\net8.0-windows\App.g.cs
+C:\Users\34695\Desktop\recuperacio dani\joc del vaixell\Activitat\client\obj\Debug\net8.0-windows\client_MarkupCompile.cache
+C:\Users\34695\Desktop\recuperacio dani\joc del vaixell\Activitat\client\obj\Debug\net8.0-windows\client_MarkupCompile.lref
+C:\Users\34695\Desktop\recuperacio dani\joc del vaixell\Activitat\client\obj\Debug\net8.0-windows\Controls\peticiocontrol.baml
+C:\Users\34695\Desktop\recuperacio dani\joc del vaixell\Activitat\client\obj\Debug\net8.0-windows\MainWindow.baml
+C:\Users\34695\Desktop\recuperacio dani\joc del vaixell\Activitat\client\obj\Debug\net8.0-windows\client.g.resources
+C:\Users\34695\Desktop\recuperacio dani\joc del vaixell\Activitat\client\obj\Debug\net8.0-windows\client.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\34695\Desktop\recuperacio dani\joc del vaixell\Activitat\client\obj\Debug\net8.0-windows\client.AssemblyInfoInputs.cache
+C:\Users\34695\Desktop\recuperacio dani\joc del vaixell\Activitat\client\obj\Debug\net8.0-windows\client.AssemblyInfo.cs
+C:\Users\34695\Desktop\recuperacio dani\joc del vaixell\Activitat\client\obj\Debug\net8.0-windows\client.csproj.CoreCompileInputs.cache
+C:\Users\34695\Desktop\recuperacio dani\joc del vaixell\Activitat\client\obj\Debug\net8.0-windows\client.sourcelink.json
+C:\Users\34695\Desktop\recuperacio dani\joc del vaixell\Activitat\client\obj\Debug\net8.0-windows\client.csproj.CopyComplete
+C:\Users\34695\Desktop\recuperacio dani\joc del vaixell\Activitat\client\obj\Debug\net8.0-windows\client.dll
+C:\Users\34695\Desktop\recuperacio dani\joc del vaixell\Activitat\client\obj\Debug\net8.0-windows\refint\client.dll
+C:\Users\34695\Desktop\recuperacio dani\joc del vaixell\Activitat\client\obj\Debug\net8.0-windows\client.pdb
+C:\Users\34695\Desktop\recuperacio dani\joc del vaixell\Activitat\client\obj\Debug\net8.0-windows\client.genruntimeconfig.cache
+C:\Users\34695\Desktop\recuperacio dani\joc del vaixell\Activitat\client\obj\Debug\net8.0-windows\ref\client.dll
+C:\Users\34695\Desktop\recuperacio dani\joc del vaixell\Activitat\client\obj\Debug\net8.0-windows\GeneratedInternalTypeHelper.g.cs

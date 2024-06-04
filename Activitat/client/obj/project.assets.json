@@ -35,11 +35,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\34695\\Desktop\\recuperacio dani\\Activitat\\client\\client.csproj",
+      "projectUniqueName": "C:\\Users\\34695\\Desktop\\recuperacio dani\\joc del vaixell\\Activitat\\client\\client.csproj",
       "projectName": "client",
-      "projectPath": "C:\\Users\\34695\\Desktop\\recuperacio dani\\Activitat\\client\\client.csproj",
+      "projectPath": "C:\\Users\\34695\\Desktop\\recuperacio dani\\joc del vaixell\\Activitat\\client\\client.csproj",
       "packagesPath": "C:\\Users\\34695\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\34695\\Desktop\\recuperacio dani\\Activitat\\client\\obj\\",
+      "outputPath": "C:\\Users\\34695\\Desktop\\recuperacio dani\\joc del vaixell\\Activitat\\client\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\34695\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -56,8 +56,8 @@
         "net8.0-windows7.0": {
           "targetAlias": "net8.0-windows",
           "projectReferences": {
-            "C:\\Users\\34695\\Desktop\\recuperacio dani\\Activitat\\JocVaixell\\JocVaixell.csproj": {
-              "projectPath": "C:\\Users\\34695\\Desktop\\recuperacio dani\\Activitat\\JocVaixell\\JocVaixell.csproj"
+            "C:\\Users\\34695\\Desktop\\recuperacio dani\\joc del vaixell\\Activitat\\JocVaixell\\JocVaixell.csproj": {
+              "projectPath": "C:\\Users\\34695\\Desktop\\recuperacio dani\\joc del vaixell\\Activitat\\JocVaixell\\JocVaixell.csproj"
             }
           }
         }

@@ -1,4 +1,5 @@
-﻿using System.Text;
+﻿using JocVaixell;
+using System.Text;
 using System.Windows;
 using System.Windows.Controls;
 using System.Windows.Data;
@@ -19,5 +20,6 @@ public partial class MainWindow : Window
     public MainWindow()
     {
         InitializeComponent();
+        playertaula.isBlank = true; // Set it as a blank table
     }
 }

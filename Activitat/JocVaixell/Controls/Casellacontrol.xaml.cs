@@ -24,19 +24,19 @@ namespace JocVaixell
     {
         public bool iswatah;
         public bool ishit = false;
-
+        public bool isblank;
         public Casellacontrol()
         {
             InitializeComponent();
         }
         private void Casella_Click(object sender, MouseButtonEventArgs e)
         {
-            if (iswatah && !ishit)
+            if (iswatah && !ishit && !isblank)
             {
                 casella.Fill = new SolidColorBrush(Color.FromRgb(66, 105, 140));
                 iswatah = false;
             }
-            else if (!iswatah && !ishit)
+            else if (!iswatah && !ishit && !isblank)
             {
                 casella.Fill = new SolidColorBrush(Color.FromRgb(0, 102, 255));
                 iswatah = true;

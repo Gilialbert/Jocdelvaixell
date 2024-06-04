@@ -85,17 +85,21 @@ namespace JocVaixell
                         Casellacontrol cell = new Casellacontrol();
                         Grid.SetRow(cell, i);
                         Grid.SetColumn(cell, j);
-                        if (!isBlank)
+                    if (!isBlank)
+                    {
+                        if (i == rnd && j == rnd)
                         {
-                            if (i == rnd && j == rnd)
-                            {
-                                cell.iswatah = false;
-                            }
-                            else
-                            {
-                                cell.iswatah = true;
-                            }
+                            cell.iswatah = false;
                         }
+                        else
+                        {
+                            cell.iswatah = true;
+                        }
+                    }
+                    else if (isBlank)
+                    {
+                       cell.isblank = true;
+                    }
                     cell.texte.Text = $"{i},{j}";
                     MainGrid.Children.Add(cell);
                 }

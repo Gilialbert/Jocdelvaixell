@@ -24,7 +24,7 @@ namespace client
     /// </summary>
     public partial class peticiocontrol : UserControl
     {
-        private TableAlbertcontrol tableControl;
+        public TableAlbertcontrol tableControl;
         public peticiocontrol()
         {
             InitializeComponent();

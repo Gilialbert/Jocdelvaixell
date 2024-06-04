@@ -20,6 +20,7 @@ public partial class MainWindow : Window
     public MainWindow()
     {
         InitializeComponent();
-        playertaula.isBlank = true; // Set it as a blank table
+        playertaula.isBlank = true;
+        peticio.tableControl = playertaula;
     }
 }

@@ -12,6 +12,6 @@
             <ColumnDefinition Width="2*"/>
         </Grid.ColumnDefinitions>
         <JocVaixell:TableAlbertcontrol x:Name="playertaula"/>
-        <local:peticiocontrol Grid.Column="1" HorizontalAlignment="Center" Margin="0,75,0,0" VerticalAlignment="Top" Width="306" />
+        <local:peticiocontrol x:Name="peticio" Grid.Column="1" HorizontalAlignment="Center" Margin="0,75,0,0" VerticalAlignment="Top" Width="306" />
     </Grid>
 </Window>

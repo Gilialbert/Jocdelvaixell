@@ -64,6 +64,7 @@ namespace JocVaixell
         }
         public void DrawGrid()
         {
+            int contador = 0;
             this.MainGrid.RowDefinitions.Clear();
             this.MainGrid.ColumnDefinitions.Clear();
 
@@ -87,7 +88,7 @@ namespace JocVaixell
                         Grid.SetColumn(cell, j);
                     if (!isBlank)
                     {
-                        if (i == rnd && j == rnd)
+                        if (contador == rnd )
                         {
                             cell.iswatah = false;
                         }
@@ -95,6 +96,7 @@ namespace JocVaixell
                         {
                             cell.iswatah = true;
                         }
+                        contador++;
                     }
                     else if (isBlank)
                     {

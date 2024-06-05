@@ -32,7 +32,7 @@ namespace JocVaixell
 
         private void Start_Click(object sender, RoutedEventArgs e)
         {
-            if (!string.IsNullOrEmpty(row.Text) && !string.IsNullOrEmpty(Column.Text))
+            if (!string.IsNullOrEmpty(row.Text) && !string.IsNullOrEmpty(Column.Text) && IsNumeric(row.Text) && IsNumeric(Column.Text))
             {
                 int rows = int.Parse(this.row.Text);
                 int columns = int.Parse(this.Column.Text);
@@ -46,7 +46,7 @@ namespace JocVaixell
             }
             else
             {
-                MessageBox.Show("Introdueix un numero de filas i columnas");
+                MessageBox.Show("Introdueix un numero de filas i columnas correcte");
             }
         }
 
@@ -153,6 +153,10 @@ namespace JocVaixell
             };
             
             return Dispatcher.Invoke(buscarDelegate);
+        }
+        private bool IsNumeric(string text)
+        {
+            return text.All(char.IsDigit);
         }
     }
 }
